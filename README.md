@@ -1,4 +1,4 @@
-# 🧠 Alzheimer’s Disease Classification using CNN
+#  Alzheimer’s Disease Classification using CNN
 
 This project focuses on classifying **Alzheimer’s disease stages** from **MRI brain images** using a **Convolutional Neural Network (CNN)**.  
 The model is trained to categorize MRI scans into **four stages** of dementia based on the OASIS dataset.
@@ -11,10 +11,10 @@ Early diagnosis of Alzheimer’s can significantly improve treatment and care.
 This project leverages **deep learning** to identify the level of dementia from MRI images.
 
 The four classes are:
-- 🩶 **Non Demented**
-- 💙 **Very Mild Demented**
-- 💛 **Mild Demented**
-- ❤️ **Moderate Demented**
+-  **Non Demented**
+-  **Very Mild Demented**
+-  **Mild Demented**
+-  **Moderate Demented**
 
 The trained model (`snapshot_1.hdf5`) can be directly used for prediction and deployment.
 
@@ -41,7 +41,7 @@ The trained model (`snapshot_1.hdf5`) can be directly used for prediction and de
 
 ---
 
-## 🧩 Dataset Information
+##  Dataset Information
 
 ### 🧾 1. OASIS Dataset (CSV)
 Used for **initial model comparisons** and data exploration.  
@@ -55,7 +55,7 @@ Each MRI image belongs to one of four dementia stages.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Defined in `cnn.py`, the model is a deep **Convolutional Neural Network** with:
 - Convolutional layers with ReLU activation  
@@ -69,16 +69,16 @@ Metrics: `Accuracy`
 
 ---
 
-## ⚙️ Training
+##  Training
 
 Run the main training script:
 ```bash
 python Alzheimers.py
-
+```
 
 The model is trained on MRI images and saved as:
-
+```
 snapshot_1.hdf5
-
+```
 
 You can monitor training accuracy and loss in the console or add TensorBoard for better visualization.

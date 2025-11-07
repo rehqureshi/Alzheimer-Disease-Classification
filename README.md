@@ -21,15 +21,21 @@ The trained model (`snapshot_1.hdf5`) can be directly used for prediction and de
 ---
 
 ## 📁 Project Structure
-'''
-├── Alzheimers.py                 # Training pipeline for MRI image classification
-├── alzheimer_classification.py   # Dataset preprocessing & model comparison (OASIS CSV)
-├── cnn.py                        # CNN model architecture definition
-├── predict.py                    # Basic prediction and visualization
-├── predict2.py                   # Enhanced prediction with preprocessing
-├── snapshot_1.hdf5               # Final trained CNN model
-└── README.md                     # Project documentation
-'''
+
+├── Alzheimers.py                 # Training pipeline for MRI image classification.
+
+├── alzheimer_classification.py   # Dataset preprocessing & model comparison (OASIS CSV).
+
+├── cnn.py                        # CNN model architecture definition.
+
+├── predict.py                    # Basic prediction and visualization.
+
+├── predict2.py                   # Enhanced prediction with preprocessing.
+
+├── snapshot_1.hdf5               # Final trained CNN model.
+
+└── README.md                     # Project documentation.
+
 
 
 

@@ -67,3 +67,11 @@ Metrics: `Accuracy`
 Run the main training script:
 ```bash
 python Alzheimers.py
+
+
+The model is trained on MRI images and saved as:
+
+snapshot_1.hdf5
+
+
+You can monitor training accuracy and loss in the console or add TensorBoard for better visualization.
